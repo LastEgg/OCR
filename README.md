@@ -1,5 +1,8 @@
 ## 简介
-这是一个基于PyTorch Lightning构建的OCR的训练框架，用于复现各种OCR论文，以及一些属于自己的创新.  
+这是一个基于PyTorch Lightning构建的OCR的训练框架，用于复现各种OCR论文，以及一些属于自己的创新。  
+<p align="center">
+    <img src="./vis/1.jpg" alt="示例图片" width="800"/>
+</p> 
 
 ## 主要特性
 - 使用 PyTorch Lightning 构建，代码结构清晰
