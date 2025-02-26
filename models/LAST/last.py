@@ -33,8 +33,6 @@ class LAST(torch.nn.Module):
     def forward(self, imgs, img_mask, task_seq):
 
         feature, f_mask = self.encoder(imgs, img_mask)
-        print("=======")
-        print(feature.shape)
         out = self.decoder(feature, f_mask, task_seq)
         return out
 

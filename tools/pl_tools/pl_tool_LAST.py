@@ -68,6 +68,8 @@ class LightningModule(pl.LightningModule):
                 pred_indices = softmax_out.argmax(dim=2)[0]
                 pred_list = pred_indices.view(-1).tolist()
                 target_list = task_seq.tgt[0].view(-1).tolist()
+                pred_list = [value for value in pred_list if value < 121]
+                target_list = [value for value in target_list if value < 121]
                 dist = editdistance.eval(pred_list, target_list)
                 pred_str = vocab.indices2label(pred_list).replace("<pad>", "")
                 target_str = vocab.indices2label(target_list).replace("<pad>", "")
@@ -94,10 +96,8 @@ class LightningModule(pl.LightningModule):
                 pred_indices = softmax_out.argmax(dim=2)[0]
                 pred_list = pred_indices.view(-1).tolist()
                 target_list = task_seq.tgt[0].view(-1).tolist()
-
-                # target_list = [value for value in target_list if value < 121]
-                # pred_list = [value for value in pred_list if value < 121]
-
+                pred_list = [value for value in pred_list if value < 121]
+                target_list = [value for value in target_list if value < 121]
                 dist = editdistance.eval(pred_list, target_list)
                 pred_str = vocab.indices2label(pred_list).replace("<pad>", "")
                 target_str = vocab.indices2label(target_list).replace("<pad>", "")

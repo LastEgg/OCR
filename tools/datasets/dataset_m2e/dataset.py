@@ -27,6 +27,7 @@ class M2EData(Dataset):
                     print(f'{name} is too long, ignore') # 行数大于16行，不处理该数据
                     continue
                 self.list.append((name,tokens))
+        self.list = self.list[0:10]
         
     def __getitem__(self, index):
         name, tex=self.list[index]

@@ -1,0 +1,23 @@
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_setup.py:_flush():68] Current SDK version is 0.19.0
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_setup.py:_flush():68] Configure stats pid to 323481
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_setup.py:_flush():68] Loading settings from /home/hz/.config/wandb/settings
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_setup.py:_flush():68] Loading settings from /datassd/hz/gdx_ocr_1/wandb/settings
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:_log_setup():528] Logging user logs to ./wandb/run-20250226_172444-fp3x82zm/logs/debug.log
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:_log_setup():529] Logging internal logs to ./wandb/run-20250226_172444-fp3x82zm/logs/debug-internal.log
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:init():639] calling init triggers
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:init():645] wandb.init called with sweep_config: {}
+config: {'seed': 42, 'exp_name': 'baseline_LAST_V1.1', 'save_wandb': True, 'project': 'OCR', 'data_path': '/datassd/hz/gdx_ocr/M2E', 'image_size': 256, 'num_workers': 8, 'model_name': 'LAST', 'pretrained': None, 'resume': None, 'num_classes': 415, 'learning_rate': 0.0001, 'weight_decay': 0.05, 'batch_size': 8, 'epochs': 100, 'devices': 0, 'precision': '32', 'gradient_clip_val': 1000000.0, 'accumulate_grad_batches': 1, 'val_check': 1.0, 'log_step': 20}
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:init():688] starting backend
+2025-02-26 17:24:44,503 INFO    MainThread:323481 [wandb_init.py:init():692] sending inform_init request
+2025-02-26 17:24:44,520 INFO    MainThread:323481 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-26 17:24:44,520 INFO    MainThread:323481 [wandb_init.py:init():705] backend started and connected
+2025-02-26 17:24:44,522 INFO    MainThread:323481 [wandb_init.py:init():798] updated telemetry
+2025-02-26 17:24:44,539 INFO    MainThread:323481 [wandb_init.py:init():830] communicating run to backend with 90.0 second timeout
+2025-02-26 17:24:45,632 INFO    MainThread:323481 [wandb_init.py:init():882] starting run threads in backend
+2025-02-26 17:24:45,770 INFO    MainThread:323481 [wandb_run.py:_console_start():2443] atexit reg
+2025-02-26 17:24:45,770 INFO    MainThread:323481 [wandb_run.py:_redirect():2293] redirect: wrap_raw
+2025-02-26 17:24:45,770 INFO    MainThread:323481 [wandb_run.py:_redirect():2358] Wrapping output streams.
+2025-02-26 17:24:45,770 INFO    MainThread:323481 [wandb_run.py:_redirect():2383] Redirects installed.
+2025-02-26 17:24:45,771 INFO    MainThread:323481 [wandb_init.py:init():925] run started, returning control to user process
+2025-02-26 17:25:07,866 WARNING MsgRouterThr:323481 [router.py:message_loop():75] message_loop has been closed

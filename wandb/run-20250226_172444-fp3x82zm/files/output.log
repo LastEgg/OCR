@@ -1,0 +1,18 @@
+/data/hz/miniconda3/envs/yolov10/lib/python3.9/site-packages/lightning/pytorch/callbacks/model_checkpoint.py:654: Checkpoint directory /datassd/hz/gdx_ocr_1/checkpoints/baseline_LAST_V1.1 exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name    | Type             | Params | Mode
+-----------------------------------------------------
+0 | model   | Huggingface_LAST | 6.5 M  | train
+1 | ce_loss | CrossEntropyLoss | 0      | train
+-----------------------------------------------------
+6.5 M     Trainable params
+0         Non-trainable params
+6.5 M     Total params
+26.157    Total estimated model params size (MB)
+375       Modules in train mode
+0         Modules in eval mode
+Epoch 0:   0%|▍                                                                                                         | 41/9993 [00:15<1:01:40,  2.69it/s, v_num=82zm]
+/data/hz/miniconda3/envs/yolov10/lib/python3.9/site-packages/lightning/pytorch/utilities/data.py:78: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 8. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...

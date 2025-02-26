@@ -50,6 +50,14 @@ class InLinePos(nn.Module):
             pt+=n
         return poser
 
+    def get_l2r_kvcache_poser(self, line_lens, task_name) -> torch.Tensor:
+        poser=torch.zeros((1, self.d_model))
+        tmp = sum(line_lens)
+        if task_name.endswith('_l2r'):
+            poser = self.pe[tmp:tmp + 1]
+
+        return poser
+
 class LineIntroducer(nn.Module):
     def __init__(self, d_model, max_len: int = 500, temperature: float = 10000.0) -> None:
         super().__init__()

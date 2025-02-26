@@ -1,0 +1,1 @@
+{"columns": ["seq_name", "image", "pred", "tgt", "equal"], "data": [["plain_l2r", "Image", "8 \\% x - 3 8 \\% x = 4 0 \\n \\left( 0 \\% x = 4 0 x = \\left( 0                                                                   ", "8 \\% x - 3 8 \\% x = 4 0 \\n 5 0 \\% x = 4 0 \\n x = 8 0                                                                   ", 3]]}

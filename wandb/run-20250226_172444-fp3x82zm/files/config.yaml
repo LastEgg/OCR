@@ -1,0 +1,240 @@
+_wandb:
+    value:
+        cli_version: 0.19.0
+        m:
+            - "1": visual/val.nrows
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "1": visual/val.size
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_sline_r2l_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_sline_l2r_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.size
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.artifact_path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_mline_r2l_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_plain_r2l_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val.artifact_path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val.path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val.ncols
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.sha256
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_mline_l2r_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.ncols
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train.nrows
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_bline_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val._type
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val.sha256
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/val._latest_artifact_path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": visual/train._latest_artifact_path
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": loss/train_plain_l2r_ce_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.9.19
+        t:
+            "1":
+                - 1
+                - 9
+                - 11
+                - 41
+                - 49
+                - 55
+                - 71
+                - 80
+                - 103
+                - 105
+                - 106
+            "2":
+                - 1
+                - 9
+                - 11
+                - 41
+                - 49
+                - 55
+                - 71
+                - 80
+                - 103
+                - 105
+                - 106
+            "3":
+                - 7
+                - 13
+                - 16
+                - 23
+                - 55
+                - 66
+            "4": 3.9.19
+            "5": 0.19.0
+            "6": 4.46.3
+            "8":
+                - 5
+            "12": 0.19.0
+            "13": linux-x86_64
+accumulate_grad_batches:
+    value: 1
+batch_size:
+    value: 8
+data_path:
+    value: /datassd/hz/gdx_ocr/M2E
+devices:
+    value: 0
+epochs:
+    value: 100
+exp_name:
+    value: baseline_LAST_V1.1
+gradient_clip_val:
+    value: 1e+06
+image_size:
+    value: 256
+learning_rate:
+    value: 0.0001
+log_step:
+    value: 20
+model_name:
+    value: LAST
+num_classes:
+    value: 415
+num_workers:
+    value: 8
+precision:
+    value: "32"
+pretrained:
+    value: null
+project:
+    value: OCR
+resume:
+    value: null
+save_wandb:
+    value: true
+seed:
+    value: 42
+val_check:
+    value: 1
+weight_decay:
+    value: 0.05

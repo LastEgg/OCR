@@ -64,14 +64,20 @@ if __name__ == "__main__":
         accumulate_grad_batches=opt.accumulate_grad_batches,
         gradient_clip_val=opt.gradient_clip_val,
         callbacks=[
+            # pl.callbacks.ModelCheckpoint(
+            #     dirpath=os.path.join("./checkpoints", opt.exp_name),
+            #     monitor="loss/val_loss",
+            #     mode="min",
+            #     save_top_k=1,
+            #     save_last=False,
+            #     filename="epoch_{epoch}-loss_{loss/val_loss:.3f}",
+            #     auto_insert_metric_name=False,  # 使用 f-string 和 replace
+            # ),
             pl.callbacks.ModelCheckpoint(
                 dirpath=os.path.join("./checkpoints", opt.exp_name),
-                monitor="loss/val_loss",
-                mode="min",
-                save_top_k=1,
-                save_last=False,
-                filename="epoch_{epoch}-loss_{loss/val_loss:.3f}",
-                auto_insert_metric_name=False,  # 使用 f-string 和 replace
+                filename="last",  # 指定文件名为 "last"
+                save_top_k=0,  # 不基于任何指标保存
+                save_last=True,  # 保存最后一个模型
             ),
         ],
     )

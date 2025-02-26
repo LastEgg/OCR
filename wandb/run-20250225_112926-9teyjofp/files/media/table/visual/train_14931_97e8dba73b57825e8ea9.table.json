@@ -1,0 +1,1 @@
+{"columns": ["seq_name", "image", "pred", "tgt", "equal"], "data": [["plain_l2r", "Image", "\\frac { 7 } { 8 } \\div 3 5 \\n                                                                   ", "\\frac { 7 } { 8 } \\div 3 5                                                                   ", 1]]}

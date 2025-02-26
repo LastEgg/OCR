@@ -1,0 +1,1 @@
+{"columns": ["seq_name", "image", "pred", "tgt", "equal"], "data": [["plain_l2r", "Image", "5 1 8 \\div 2 = 2 5 9 \\t 2 5 9 \\n 1 \\DIV 5 7 8 \\n 4 \\n 1 0 \\n 1 \\n \\n 1 8 \\n 1 8 \\n 0 \\t                                 ", "5 1 8 \\div 2 = 2 5 9 \\t 2 5 9 \\n 2 \\DIV 5 1 8 \\n 4 \\n 1 1 \\n 1 0 \\n 1 8 \\n 1 8 \\n 0                                 ", 5]]}
