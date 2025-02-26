@@ -1,1 +1,0 @@
-{"columns": ["seq_name", "image", "pred", "tgt", "equal"], "data": [["plain_l2r", "Image", "n \u516c \u4efd \u9875 n \uff1a \u5757 \u5757 \u539f \u539f \u5757 \u5757 \\quad \\approx \\quad \u5757 \u5757 \\quad", "5 3 4 \\times 6 = 3 2 0 4 \\t 5 3 4 \\times 6 \\n 3 2 0 4                                                ", 69]]}

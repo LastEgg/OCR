@@ -1,1 +1,0 @@
-{"columns": ["seq_name", "image", "pred", "tgt", "equal"], "data": [["plain_l2r", "Image", "5 0 0 - 1 5 \\times 3 \\n = 5 0 0 - 4 5 \\n = 5                                     ", "5 0 0 - 1 5 \\times 3 \\n = 5 0 0 - 4 5 \\n 4 5 5                                     ", 2]]}
