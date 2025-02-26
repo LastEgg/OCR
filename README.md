@@ -40,7 +40,7 @@
 ## 已复现论文
 | **方法名称** | **配置文件** | **数据集** | **论文** | **原文代码** |
 | --- | --- | --- | --- | --- |
-| LAST | config_last_m2edataset.yaml | M2D | [paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612499) | [code](https://github.com/HCIILAB/LAST) |
+| LAST | config_last_m2edataset.yaml | M2E | [paper](https://dl.acm.org/doi/abs/10.1145/3581783.3612499) | [code](https://github.com/HCIILAB/LAST) |
 
 
 
