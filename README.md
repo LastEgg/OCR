@@ -34,8 +34,9 @@
 - [x] 整理ExpRate计算代码：test.py
 - [x] 实现LAST的 KV cache推理, **last的单行单端解码与多行双端解码 ===> 复现成功！**
 - [x] 实现LAST的 KV cache版本的训练（引入hugging face的transformer源码）
-- [ ] 上传训练好的模型
+- [ ] 优化README.md文档
 - [ ] 合并pt版本的kv cache推理与onnx版本的kv cache推理
+- [ ] 上传ocr模型与推理结果
 
 ## 已复现论文
 | **方法名称** | **配置文件** | **数据集** | **论文** | **原文代码** |
